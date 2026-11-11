@@ -1,5 +1,5 @@
 import { listarProductos, obtenerProducto } from "./api.js";
-import { crearTarjeta, parametrosCatalogo } from "./tarjetas.js";
+import { crearTarjeta, parametrosCatalogo } from "./tarjetas.js?v=stock-catalogo";
 import { fotoProducto, mensajeError, precioFormateado, texto } from "./vista.js";
 
 const detalle = document.querySelector("#detalle");

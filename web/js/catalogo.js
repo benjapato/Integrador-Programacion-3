@@ -1,5 +1,5 @@
 import { listarCategorias, listarProductos } from "./api.js";
-import { crearTarjeta, parametrosCatalogo } from "./tarjetas.js";
+import { crearTarjeta, parametrosCatalogo } from "./tarjetas.js?v=stock-catalogo";
 import { mensajeError, texto } from "./vista.js";
 
 const formulario = document.querySelector("#filtros");

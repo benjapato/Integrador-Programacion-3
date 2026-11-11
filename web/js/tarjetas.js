@@ -20,9 +20,11 @@ export function crearTarjeta(producto, filtros) {
     if (producto.descripcion) {
         cuerpo.append(texto("p", producto.descripcion, "producto__descripcion"));
     }
-    if (producto.stock === 0) {
-        cuerpo.append(texto("span", "Sin stock", "stock stock--vacio producto__stock"));
-    }
+    cuerpo.append(
+        producto.stock > 0
+            ? texto("span", `${producto.stock} en stock`, "stock producto__stock")
+            : texto("span", "Sin stock", "stock stock--vacio producto__stock"),
+    );
 
     const parametros = parametrosCatalogo(filtros);
     parametros.set("id", producto.id);

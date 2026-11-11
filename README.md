@@ -2,6 +2,12 @@
 
 La web usa HTML, CSS y módulos de JavaScript. La API del Parcial 2 usa FastAPI y SQLite. Al iniciar con una base nueva se cargan 26 productos activos en cinco categorías.
 
+## Demo en línea
+
+[Abrir Food Store en Render](https://food-store-benjapato.onrender.com/web/)
+
+La demo usa sus propios datos de ejemplo. En el plan gratuito, la base SQLite se reinicia si el servicio se reinicia, se vuelve a desplegar o entra en reposo. La primera visita después de un período de inactividad puede demorar.
+
 ## Ejecutar
 
 Abrí dos terminales en la carpeta del proyecto. En Windows, usá el lanzador py de Python 3 y dejá las dos terminales abiertas. En macOS o Linux, usá python3 en lugar de py.

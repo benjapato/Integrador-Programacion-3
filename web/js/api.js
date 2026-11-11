@@ -1,4 +1,8 @@
-const URL_BASE = "http://127.0.0.1:8000";
+const ES_LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname);
+const ORIGEN_API_PUBLICA = location.hostname === "benjapato.github.io"
+    ? "https://food-store-benjapato.onrender.com"
+    : location.origin;
+const URL_BASE = ES_LOCAL ? "http://127.0.0.1:8000" : ORIGEN_API_PUBLICA;
 
 export class ApiError extends Error {
     constructor(status, detail, mensaje) {
@@ -14,7 +18,10 @@ async function pedir(ruta, opciones) {
     try {
         respuesta = await fetch(URL_BASE + ruta, opciones);
     } catch {
-        throw new ApiError(0, null, "No se pudo conectar con la API. Revisá que esté encendida en el puerto 8000.");
+        const mensaje = ES_LOCAL
+            ? "No se pudo conectar con la API. Revisá que esté encendida en el puerto 8000."
+            : "No se pudo conectar con la API. Volvé a intentar en unos instantes.";
+        throw new ApiError(0, null, mensaje);
     }
 
     const datos = await respuesta.json().catch(() => null);

@@ -1,0 +1,418 @@
+[
+  {
+    "producto": "Pizza Muzzarella",
+    "archivo": "pizza-muzzarella.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-of-cheese-pizza-17800186/",
+    "imagen_fuente": "https://images.pexels.com/photos/17800186/pexels-photo-17800186.jpeg",
+    "autor": "Nadin Sh",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte centrado a proporcion 4:3, redimensionado a 1200x900 y conversion a JPEG RGB calidad 77. Sin contenido generado.",
+    "dimensiones_originales": [
+      2000,
+      2667
+    ],
+    "licencia_adaptacion": "Pexels License",
+    "sha256": "127adee55bab0add5f09c2e9ccbb9cf524c740af08f719ba85b667d377242e1a"
+  },
+  {
+    "producto": "Pizza Napolitana",
+    "archivo": "pizza-napolitana.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-of-a-pizza-with-tomatoes-and-basil-6223177/",
+    "imagen_fuente": "https://images.pexels.com/photos/6223177/pexels-photo-6223177.jpeg",
+    "autor": "Antonius Ferret",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte centrado a proporcion 4:3, redimensionado a 1200x900 y conversion a JPEG RGB calidad 75. Sin contenido generado.",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "licencia_adaptacion": "Pexels License",
+    "sha256": "fa21ae483baa1b2187788a84efa1631e734ac7af74c94bb85dc6a0306b3035e0"
+  },
+  {
+    "producto": "Pizza Fugazzeta",
+    "archivo": "pizza-fugazzeta.jpg",
+    "pagina_fuente": "https://commons.wikimedia.org/wiki/File:Fugazzetta_(variedad_de_pizza_argentina).jpg",
+    "imagen_fuente": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fugazzetta_%28variedad_de_pizza_argentina%29.jpg",
+    "autor": "Horacio Cambeiro",
+    "licencia": "CC BY 3.0",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+    "cambios": "Recorte centrado a proporcion 4:3, redimensionado a 1200x900 y conversion a JPEG RGB calidad 81. Sin contenido generado.",
+    "dimensiones_originales": [
+      16320,
+      12240
+    ],
+    "licencia_adaptacion": "CC BY 3.0",
+    "sha256": "a7cf455982efb0646b018326852967b029f6aec19321b4d61835724e7c98fe0e"
+  },
+  {
+    "producto": "Pizza de Albahaca",
+    "archivo": "pizza-albahaca.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/gourmet-homemade-pizza-with-fresh-basil-and-tomato-28647124/",
+    "imagen_fuente": "https://images.pexels.com/photos/28647124/pexels-photo-28647124.jpeg",
+    "autor": "Atakan Tok",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte centrado a proporcion 4:3, redimensionado a 1200x900 y conversion a JPEG RGB calidad 75. Sin contenido generado.",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "licencia_adaptacion": "Pexels License",
+    "sha256": "575d8549731baaaddfabd7977e36860b14187a6400070606a9514a7181eda4fc"
+  },
+  {
+    "producto": "Pizza de Cuatro Quesos",
+    "archivo": "pizza-cuatro-quesos.jpg",
+    "pagina_fuente": "https://commons.wikimedia.org/wiki/File:Four_cheese_pizza.jpg",
+    "imagen_fuente": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Four_cheese_pizza.jpg",
+    "autor": "Shreya13jain",
+    "licencia": "CC BY-SA 4.0",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "cambios": "Recorte centrado a proporcion 4:3, redimensionado a 1200x900 y conversion a JPEG RGB calidad 88. Sin contenido generado.",
+    "dimensiones_originales": [
+      2890,
+      2389
+    ],
+    "licencia_adaptacion": "CC BY-SA 4.0",
+    "sha256": "b1323e2e68da4fbbde3c5e5205b564e5e52e568e9ebc12067e2e7d408e3d4b2f"
+  },
+  {
+    "producto": "Pizza de Champiñones",
+    "archivo": "pizza-champinones.jpg",
+    "pagina_fuente": "https://commons.wikimedia.org/wiki/File:Pizza_with_mushroom.jpg",
+    "imagen_fuente": "https://upload.wikimedia.org/wikipedia/commons/0/04/Pizza_with_mushroom.jpg",
+    "autor": "Zuxra.bmr",
+    "licencia": "CC0 1.0",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 72. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "CC0 1.0",
+    "dimensiones_originales": [
+      3840,
+      2160
+    ],
+    "sha256": "495772d3dd73aa7d5a04f2d70682d97d5631e786762e0b5b394cbb71a7ff8e4f"
+  },
+  {
+    "producto": "Hamburguesa Clásica",
+    "archivo": "hamburguesa-clasica.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-photo-of-a-hamburger-10500520/",
+    "imagen_fuente": "https://images.pexels.com/photos/10500520/pexels-photo-10500520.jpeg",
+    "autor": "Rene Santacruz",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte centrado a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 87. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "sha256": "0616f5f34417a3f6de88af8fc45b3e2972a89f2feb5b150049c627aab32dda1b"
+  },
+  {
+    "producto": "Hamburguesa Doble",
+    "archivo": "hamburguesa-doble.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/cheeseburger-on-table-2089717/",
+    "imagen_fuente": "https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg",
+    "autor": "Adrian Dorobantu",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1600
+    ],
+    "sha256": "63b3535f4e9efe2280d2fd0e3f98d44a9e3267b6e722b571f2fd76837d86b44a"
+  },
+  {
+    "producto": "Hamburguesa Vegetariana",
+    "archivo": "hamburguesa-vegetariana.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/burger-with-lettuce-and-tomato-3607284/",
+    "imagen_fuente": "https://images.pexels.com/photos/3607284/pexels-photo-3607284.jpeg",
+    "autor": "Grooveland Designs",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 85. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1125
+    ],
+    "sha256": "2e7bb9314138309b0fab995ed495a725254cdcd4e5ab296bc36e3905f557f40d"
+  },
+  {
+    "producto": "Hamburguesa Cheddar",
+    "archivo": "hamburguesa-cheddar.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/a-close-up-shot-of-a-hamburger-7764699/",
+    "imagen_fuente": "https://images.pexels.com/photos/7764699/pexels-photo-7764699.jpeg",
+    "autor": "Taha Samet Arslan",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "sha256": "0a67bffce74f44cc650d982f173ce362162d190b01e8f30fc3cd51845604a692"
+  },
+  {
+    "producto": "Hamburguesa Criolla",
+    "archivo": "hamburguesa-criolla.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-shot-of-a-burger-12325032/",
+    "imagen_fuente": "https://images.pexels.com/photos/12325032/pexels-photo-12325032.jpeg",
+    "autor": "The Good Burger",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte 4:3 desplazado hacia el producto; redimensionado a 1200x900, JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      2580
+    ],
+    "sha256": "0de8ba9fa5aff3772bea8b2a4fa1d8fa329ee405d61bfa84fb21c1dcb5af4646"
+  },
+  {
+    "producto": "Hamburguesa de Pollo",
+    "archivo": "hamburguesa-pollo.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-photo-of-a-sandwich-5122952/",
+    "imagen_fuente": "https://images.pexels.com/photos/5122952/pexels-photo-5122952.jpeg",
+    "autor": "Jonatan Torres",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1334
+    ],
+    "sha256": "795c63086ab1b67144f15a5a1c64c4ba2139b8c4940d80338fa3d61fe16bb051"
+  },
+  {
+    "producto": "Ensalada Mixta",
+    "archivo": "ensalada-mixta.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/fresh-salad-bowl-with-greens-and-tomatoes-29843061/",
+    "imagen_fuente": "https://images.pexels.com/photos/29843061/pexels-photo-29843061.jpeg",
+    "autor": "Valeria Boltneva",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      2999
+    ],
+    "sha256": "edb51dd65082d8975128889abc7f0bd22ce2e0c74725fde3ccc2749de11f0c99"
+  },
+  {
+    "producto": "Ensalada César",
+    "archivo": "ensalada-cesar.jpg",
+    "pagina_fuente": "https://commons.wikimedia.org/wiki/File:Caesar_salad_with_chicken_-_Cambridge,_MA.jpg",
+    "imagen_fuente": "https://upload.wikimedia.org/wikipedia/commons/1/10/Caesar_salad_with_chicken_-_Cambridge%2C_MA.jpg",
+    "autor": "Daderot",
+    "licencia": "CC0 1.0",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "dimensiones_originales": [
+      2918,
+      2952
+    ],
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 75. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "CC0 1.0",
+    "sha256": "46c6f52daa06a2ddc1bb31965ba7cb6984aba58a72db543dd14538491512a8ed"
+  },
+  {
+    "producto": "Ensalada Vegana",
+    "archivo": "ensalada-vegana.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/vegetable-salad-on-red-ceramic-bowl-9218762/",
+    "imagen_fuente": "https://images.pexels.com/photos/9218762/pexels-photo-9218762.jpeg",
+    "autor": "Loren Castillo",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "sha256": "9612e2f84a2af5a7c7023c1e120517a67feffe5205ca888dce3b3b74c6ea55aa"
+  },
+  {
+    "producto": "Ensalada Mediterránea",
+    "archivo": "ensalada-mediterranea.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/sliced-cucumber-and-tomatoes-on-white-ceramic-bowl-14089635/",
+    "imagen_fuente": "https://images.pexels.com/photos/14089635/pexels-photo-14089635.jpeg",
+    "autor": "Kristina Evstifeeva",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1328
+    ],
+    "sha256": "b0f24222ba647dea289a01a90d60e879ba0dc387c9a218af232b49ff90ecc2b5"
+  },
+  {
+    "producto": "Ensalada de Estación",
+    "archivo": "ensalada-estacion.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/salad-in-bowl-18058379/",
+    "imagen_fuente": "https://images.pexels.com/photos/18058379/pexels-photo-18058379.jpeg",
+    "autor": "Valeria Boltneva",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      2999
+    ],
+    "sha256": "3cfb62d4fcd11c97a5408fcc13f2564b957aebccd53c0da9bb3ad00707592bbe"
+  },
+  {
+    "producto": "Agua Mineral",
+    "archivo": "agua-mineral.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/bottle-of-water-on-table-7765745/",
+    "imagen_fuente": "https://images.pexels.com/photos/7765745/pexels-photo-7765745.jpeg",
+    "autor": "Caleb Oquendo",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Redimensionado proporcional sin cortar el envase/vaso; márgenes oscuros para completar 1200x900 (4:3), JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "sha256": "35f40a1a3ca36809428e6d29bec9210cddd5fe3fa7199fecd3a3fd5b53a4bb46"
+  },
+  {
+    "producto": "Limonada",
+    "archivo": "limonada.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/glass-of-refreshing-lemonade-with-mint-and-lemon-5472299/",
+    "imagen_fuente": "https://images.pexels.com/photos/5472299/pexels-photo-5472299.jpeg",
+    "autor": "Ryutaro Tsukata",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 85. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      1952,
+      2928
+    ],
+    "sha256": "5a3f92975b2301339f89a39d6c7638b13848623af11ee408c4f2c1d154528c62"
+  },
+  {
+    "producto": "Jugo de Naranja",
+    "archivo": "jugo-naranja.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/orange-juice-in-a-glass-6414118/",
+    "imagen_fuente": "https://images.pexels.com/photos/6414118/pexels-photo-6414118.jpeg",
+    "autor": "Anna Pyshniuk",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte 4:3 desplazado hacia el producto; redimensionado a 1200x900, JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "sha256": "84107665e1b7075126e7d9179ccda4c85cbd72d3e5672fa1c220047269a70138"
+  },
+  {
+    "producto": "Gaseosa Cola",
+    "archivo": "gaseosa-cola.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/coke-drink-in-a-can-14650704/",
+    "imagen_fuente": "https://images.pexels.com/photos/14650704/pexels-photo-14650704.jpeg",
+    "autor": "Ali Pli",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "sha256": "685f119255ba61765798f80446641dffd5a4335d53488c9f1256badd03a29868"
+  },
+  {
+    "producto": "Limonada con Jengibre",
+    "archivo": "limonada-jengibre.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/refreshing-lemon-ginger-cooler-in-tall-glass-35532831/",
+    "imagen_fuente": "https://images.pexels.com/photos/35532831/pexels-photo-35532831.jpeg",
+    "autor": "athul santhosh",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Redimensionado proporcional sin cortar el envase/vaso; márgenes oscuros para completar 1200x900 (4:3), JPEG RGB calidad 88.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      3000
+    ],
+    "sha256": "54cbc1fa966979f0587c14ba895fb87e51fc6e12680a27e3cae3aabfcd373440"
+  },
+  {
+    "producto": "Agua con Gas",
+    "archivo": "agua-gas.jpg",
+    "pagina_fuente": "https://commons.wikimedia.org/wiki/File:San_Pellegrino_mineral_water.jpg",
+    "imagen_fuente": "https://upload.wikimedia.org/wikipedia/commons/0/0e/San_Pellegrino_mineral_water.jpg",
+    "autor": "Lysippos",
+    "licencia": "CC BY-SA 3.0",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "cambios": "Redimensionado proporcional sin cortar el envase/vaso; márgenes oscuros para completar 1200x900 (4:3), JPEG RGB calidad 88.",
+    "licencia_adaptacion": "CC BY-SA 3.0",
+    "dimensiones_originales": [
+      1737,
+      3824
+    ],
+    "sha256": "b292d2f893f0adf2b418b1dc7fb6c7ca82f8563238e017d3bb876e52480a44cd"
+  },
+  {
+    "producto": "Papas Clásicas",
+    "archivo": "papas-clasicas.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-of-crispy-golden-french-fries-on-a-plate-39799185/",
+    "imagen_fuente": "https://images.pexels.com/photos/39799185/pexels-photo-39799185.jpeg",
+    "autor": "Jahra Tasfia Reza",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "sha256": "817a851b403e08c792fc993b51a9202ae1901d1a7cc6430408e052364ff334cd"
+  },
+  {
+    "producto": "Papas Rústicas",
+    "archivo": "papas-rusticas.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/close-up-photo-of-fried-potato-wedges-3727184/",
+    "imagen_fuente": "https://images.pexels.com/photos/3727184/pexels-photo-3727184.jpeg",
+    "autor": "Horizon Content",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "sha256": "ee93be46f7310d4dfb6c870a49b29a36de5e39020a1859b27598282864a99d91"
+  },
+  {
+    "producto": "Papas para Compartir",
+    "archivo": "papas-compartir.jpg",
+    "pagina_fuente": "https://www.pexels.com/photo/french-fries-served-in-a-bowl-in-a-restaurant-18467142/",
+    "imagen_fuente": "https://images.pexels.com/photos/18467142/pexels-photo-18467142.jpeg",
+    "autor": "Chen Te",
+    "licencia": "Pexels License",
+    "licencia_url": "https://www.pexels.com/license/",
+    "cambios": "Recorte a 4:3, redimensionado a 1200x900 y conversión a JPEG RGB calidad 88. Fotografía original de internet, sin generación de imágenes.",
+    "licencia_adaptacion": "Pexels License",
+    "dimensiones_originales": [
+      2000,
+      1333
+    ],
+    "sha256": "641139dd194b99e1b38eaafb8a8e13a7f5632add43d2debb23335721933e41c7"
+  }
+]

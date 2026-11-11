@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lista paginada y alta de productos de Food Store.">
+    <title>Inventario | Food Store</title>
+    <link rel="stylesheet" href="css/estilos.css?v=filtros-stock">
+    <script type="module" src="js/productos.js?v=filtros-stock"></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+    <header class="barra">
+        <div class="barra__contenido contenedor">
+            <a class="marca" href="index.html">Food Store<span aria-hidden="true">.</span></a>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="index.html">Catálogo</a>
+                <a href="productos.html" aria-current="page">Inventario</a>
+            </nav>
+        </div>
+    </header>
+    <main class="inventario contenedor" id="contenido">
+        <section aria-labelledby="titulo-inventario">
+            <div class="inventario__cabecera">
+                <div class="inventario__titulo">
+                    <h1 class="titulo" id="titulo-inventario">Inventario de productos</h1>
+                    <button id="abrir-alta" class="btn btn--primario" type="button" aria-haspopup="dialog"><span aria-hidden="true">+</span> Nuevo producto</button>
+                </div>
+                <div class="inventario__resumen" id="resumen-inventario" role="group" aria-label="Filtrar por disponibilidad" hidden>
+                    <button class="inventario__indicador" type="button" data-filtro="activos" aria-pressed="true" aria-controls="resultados-inventario">
+                        <strong id="cantidad-inventario"></strong>
+                        <span>Activos</span>
+                    </button>
+                    <button class="inventario__indicador" type="button" data-filtro="con-stock" aria-pressed="false" aria-controls="resultados-inventario">
+                        <strong></strong>
+                        <span>Con stock</span>
+                    </button>
+                    <button class="inventario__indicador" type="button" data-filtro="sin-stock" aria-pressed="false" aria-controls="resultados-inventario">
+                        <strong></strong>
+                        <span>Sin stock</span>
+                    </button>
+                </div>
+            </div>
+            <p class="aviso aviso--exito" id="exito-alta" role="status" tabindex="-1" hidden></p>
+            <div class="estado">
+                <p id="estado-inventario" role="status"></p>
+                <button id="reintentar-inventario" class="btn btn--secundario" type="button" hidden>Reintentar</button>
+            </div>
+            <div id="resultados-inventario" hidden>
+                <p class="inventario__ayuda">Deslizá la tabla para ver todas las columnas.</p>
+                <div class="inventario__tabla" role="region" aria-label="Tabla de productos" tabindex="0">
+                    <table class="tabla">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Imagen</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Categoría</th>
+                                <th scope="col" class="tabla__numero">Precio</th>
+                                <th scope="col" class="tabla__numero">Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody id="filas"></tbody>
+                    </table>
+                </div>
+                <nav class="paginacion" aria-label="Páginas del inventario">
+                    <button class="btn btn--secundario" id="pagina-anterior" type="button" disabled>← Anterior</button>
+                    <span id="pagina-actual" role="status"></span>
+                    <button class="btn btn--secundario" id="pagina-siguiente" type="button" disabled>Siguiente →</button>
+                </nav>
+            </div>
+        </section>
+        <dialog class="modal" id="alta" aria-labelledby="titulo-alta">
+            <div class="modal__cabecera">
+                <h2 id="titulo-alta">Nuevo producto</h2>
+                <button class="modal__cerrar" id="cerrar-alta" type="button" aria-label="Cerrar formulario">×</button>
+            </div>
+            <form id="formulario-alta" class="formulario">
+                <div class="campo formulario__ancho">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" minlength="3" maxlength="60" required autofocus aria-describedby="error-nombre" placeholder="Ej. Pizza de la casa">
+                    <p class="campo__error" id="error-nombre" hidden></p>
+                </div>
+                <div class="campo formulario__ancho">
+                    <label for="descripcion">Descripción <span class="opcional">(opcional)</span></label>
+                    <textarea id="descripcion" name="descripcion" maxlength="200" rows="2" aria-describedby="error-descripcion"></textarea>
+                    <p class="campo__error" id="error-descripcion" hidden></p>
+                </div>
+                <div class="campo">
+                    <label for="precio">Precio ($)</label>
+                    <input id="precio" name="precio" type="number" min="0.01" step="0.01" required aria-describedby="error-precio" placeholder="Ej. 6500">
+                    <p class="campo__error" id="error-precio" hidden></p>
+                </div>
+                <div class="campo">
+                    <label for="stock">Stock</label>
+                    <input id="stock" name="stock" type="number" min="0" step="1" value="0" required aria-describedby="error-stock">
+                    <p class="campo__error" id="error-stock" hidden></p>
+                </div>
+                <div class="campo formulario__ancho">
+                    <label for="categoria-id">Categoría</label>
+                    <select id="categoria-id" name="categoria_id" required aria-describedby="error-categoria_id" disabled>
+                        <option value="">Elegí una categoría</option>
+                    </select>
+                    <p class="campo__error" id="error-categoria_id" hidden></p>
+                    <button class="btn btn--secundario campo__reintentar" id="reintentar-categorias" type="button" hidden>Reintentar</button>
+                </div>
+                <div class="campo formulario__ancho">
+                    <label for="imagen-url">Imagen <span class="opcional">(opcional)</span></label>
+                    <input id="imagen-url" name="imagen_url" type="text" maxlength="255" placeholder="img/pizza-muzzarella.jpg o https://…" aria-describedby="ayuda-imagen error-imagen_url">
+                    <small class="campo__ayuda" id="ayuda-imagen">Usá una ruta dentro de img/ o una dirección web.</small>
+                    <p class="campo__error" id="error-imagen_url" hidden></p>
+                </div>
+                <p class="aviso aviso--error formulario__ancho" id="error-alta" role="status" hidden></p>
+                <div class="formulario__acciones formulario__ancho">
+                    <button class="btn btn--secundario" id="cancelar-alta" type="button">Cancelar</button>
+                    <button class="btn btn--primario" id="guardar-producto" type="submit" disabled>Crear producto</button>
+                </div>
+            </form>
+        </dialog>
+    </main>
+    <footer class="pie">
+        <div class="pie__contenido contenedor">
+            <span class="marca">Food Store<span aria-hidden="true">.</span></span>
+            <a href="img/catalogo/creditos.txt">Créditos de fotos</a>
+            <span>Rivadavia, Mendoza</span>
+        </div>
+    </footer>
+</body>
+</html>

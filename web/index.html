@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Catálogo de Food Store con pizzas, hamburguesas, ensaladas y bebidas.">
+    <title>Catálogo | Food Store</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="module" src="js/catalogo.js"></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+    <header class="barra">
+        <div class="barra__contenido contenedor">
+            <a class="marca" href="index.html">Food Store<span aria-hidden="true">.</span></a>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="index.html" aria-current="page">Catálogo</a>
+                <a href="productos.html">Inventario</a>
+            </nav>
+        </div>
+    </header>
+    <main id="contenido">
+        <section class="portada" aria-labelledby="titulo-portada">
+            <div class="portada__contenido contenedor">
+                <div class="portada__texto">
+                    <h1 id="titulo-portada">Tu antojo.<br><span>Hecho realidad.</span></h1>
+                    <p>Hamburguesas, pizzas y esos clásicos que nunca fallan.</p>
+                    <a class="btn btn--primario" href="#menu">Ver el menú <span aria-hidden="true">↓</span></a>
+                </div>
+                <div class="portada__visual">
+                    <img class="portada__foto" src="img/catalogo/hamburguesa-doble.jpg" alt="Hamburguesa doble con queso cheddar fundido" width="1200" height="900" fetchpriority="high">
+                </div>
+            </div>
+        </section>
+        <section class="menu contenedor" id="menu" aria-labelledby="titulo-menu">
+            <div class="seccion__cabecera">
+                <h2 class="titulo" id="titulo-menu">Nuestro menú</h2>
+                <p class="seccion__cantidad" id="cantidad-catalogo" hidden></p>
+            </div>
+            <form class="filtros" id="filtros" role="search">
+                <div class="campo">
+                    <label for="buscar">Buscar producto</label>
+                    <div class="filtros__fila">
+                        <input type="search" id="buscar" name="q" maxlength="50" placeholder="Ej. pizza">
+                        <button class="btn btn--primario" type="submit">Buscar</button>
+                    </div>
+                </div>
+            </form>
+            <section class="categorias" aria-labelledby="titulo-categorias">
+                <h3 id="titulo-categorias">Categorías</h3>
+                <div class="categorias__lista" id="lista-categorias" role="group" aria-labelledby="titulo-categorias">
+                    <button class="categorias__boton" type="button" data-categoria="" aria-pressed="true" disabled>Todos</button>
+                </div>
+            </section>
+            <div class="estado">
+                <p id="estado-catalogo" role="status"></p>
+                <button id="reintentar-catalogo" class="btn btn--secundario" type="button" hidden>Reintentar</button>
+            </div>
+            <div class="catalogo" id="tarjetas" hidden></div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="pie__contenido contenedor">
+            <span class="marca">Food Store<span aria-hidden="true">.</span></span>
+            <a href="img/catalogo/creditos.txt">Créditos de fotos</a>
+            <span>Rivadavia, Mendoza</span>
+        </div>
+    </footer>
+</body>
+</html>

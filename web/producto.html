@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ficha de producto de Food Store.">
+    <title>Producto | Food Store</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="module" src="js/detalle.js"></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+    <header class="barra">
+        <div class="barra__contenido contenedor">
+            <a class="marca" href="index.html">Food Store<span aria-hidden="true">.</span></a>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="index.html" aria-current="location">Catálogo</a>
+                <a href="productos.html">Inventario</a>
+            </nav>
+        </div>
+    </header>
+    <main class="detalle-pagina contenedor" id="contenido">
+        <nav class="migas" aria-label="Ubicación">
+            <ol>
+                <li><a id="volver-catalogo" href="index.html#menu">Catálogo</a></li>
+                <li id="ubicacion-producto" aria-current="page">Producto</li>
+            </ol>
+        </nav>
+        <div class="estado">
+            <p id="estado-detalle" role="status"></p>
+            <button id="reintentar-detalle" class="btn btn--secundario" type="button" hidden>Reintentar</button>
+        </div>
+        <article class="detalle" id="detalle" hidden></article>
+        <section class="relacionados" id="relacionados" aria-labelledby="titulo-relacionados" hidden>
+            <div class="seccion__cabecera">
+                <h2 class="titulo" id="titulo-relacionados"></h2>
+            </div>
+            <div class="catalogo" id="tarjetas-relacionadas"></div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="pie__contenido contenedor">
+            <span class="marca">Food Store<span aria-hidden="true">.</span></span>
+            <a href="img/catalogo/creditos.txt">Créditos de fotos</a>
+            <span>Rivadavia, Mendoza</span>
+        </div>
+    </footer>
+</body>
+</html>
